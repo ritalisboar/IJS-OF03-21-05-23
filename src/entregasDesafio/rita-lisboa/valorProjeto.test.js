@@ -45,7 +45,7 @@ describe('funções para calcular os valores base e total do projeto segundo fun
     ]
     const valorHora = 75
     const result = calcularValorTotalProjeto(funcionalidades, valorHora)
-    expect(result).toEqual(8400) //8400 seria o valor base, sem acrescimo das taxas contratuais
+    expect(result).toEqual(12600) 
   })
 
   // para testar case erro
@@ -65,6 +65,6 @@ describe('funções para calcular os valores base e total do projeto segundo fun
     ]
     const valorHora = 75
     const result = calcularValorTotalProjeto(funcionalidades, valorHora)
-    expect(result).toEqual(12600)
+    expect(result).toEqual(8400) //8400 seria o valor base, sem acrescimo das taxas contratuais
   })
 })
